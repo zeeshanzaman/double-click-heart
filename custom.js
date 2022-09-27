@@ -25,7 +25,7 @@ const createHeart = (e) => {
     const y = e.clientY
 
     const leftOffset = e.target.offsetLeft
-    const topOffset = e.target.topoffsetTop
+    const topOffset = e.target.offsetTop
 
     const xInside = x - leftOffset
     const yInside = y - topOffset
@@ -33,4 +33,5 @@ const createHeart = (e) => {
     heart.style.top = `${yInside}px`
     heart.style.left = `${xInside}px`
 
+    loveMe.appendChild(heart)
 }
