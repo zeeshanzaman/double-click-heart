@@ -19,3 +19,17 @@ small {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.fa-heart {
+    color: red;
+}
+
+.loveMe {
+    height: 440px;
+    width: 300px;
+    background: url('https://images.unsplash.com/photo-1487101588220-01e039029925?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyJTVDfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+}
